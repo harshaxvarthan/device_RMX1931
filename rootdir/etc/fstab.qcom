@@ -49,7 +49,6 @@
 # The update_engine code looks for this entry in order to determine the boot device address
 # and fails if it does not find it.
 /dev/block/bootdevice/by-name/misc                      /misc              emmc    defaults                                             defaults
-/dev/block/zram0                                        none               swap    defaults                                             zramsize=1073741824
 
 #ifdef VENDOR_EDIT
 #Runsheng.Pei@PSW.AD.Storage.ReservePartition.1207580, 2017/12/29, Add for new reserve partition
